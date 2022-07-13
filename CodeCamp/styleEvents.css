@@ -1,0 +1,167 @@
+/*fonts*/
+@font-face {
+  font-family: "Saira Condensed";
+  src: url(Fonts/SairaCondensed/SairaCondensed-regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Spicy_Rice";
+  src: url(Fonts/Spicy_Rice/SpicyRice-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Belleza";
+  src: url(Fonts/Belleza/Belleza-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Abel";
+  src: url(Fonts/Abel/Abel-Regular.ttf) format("truetype");
+}
+
+body{
+    margin: 0;
+    background-color: rgba(255, 201, 66, 0.11);
+ 
+}
+
+header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height:90px;
+    background-color:#E8E8E8;
+    box-shadow: 0px 10px 10px grey;
+}
+
+#logo{
+	margin-bottom:10px;
+    margin-left: 20px;
+    float: left;
+}
+
+nav{
+    list-style: none;
+    float: right;
+    margin-top: -15px;
+    padding: 0px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 30px;
+	padding: 23px;
+	font-family: Saira Condensed;
+    font-size: 25px;
+    font-weight: 600;
+	
+}
+
+nav button{
+    display: inline-block;
+    margin-left: 10px;
+	padding: 23px;
+	font-family: Saira Condensed;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+}
+
+nav a, button{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(255, 68, 0);
+}
+
+nav #active{
+    color: rgb(255, 68, 0);
+}
+
+#dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #E8E8E8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#dropdown:hover #dropdown-content{
+    display: block;
+}
+
+#dropdown-content a:hover{
+    background-color: orangered;
+}
+
+#intro{
+	margin-top: 110px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align:center;
+    position: relative;
+}
+
+#introImg{
+    border-radius: 20px;
+}
+
+#intro img
+{
+	max-width:100%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	
+}
+#intro img:hover
+{
+	filter: grayscale(0%);
+}
+
+#content-container{
+    margin-top: 110px;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    background-color: #e8e8e8;
+}
+
+#content-all{
+    font-family: Abel;
+}
+
+#content-all h1{
+	margin-top:10px;
+	font-family: Saira Condensed;
+	text-align:center;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+#content-all #content-body{
+    margin-left: 20px;
+    margin-top: -50px;
+    padding: 50px;
+    font-family: Abel;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+#content-all #list{
+    margin-left: 100px;
+}
+#global{
+    margin: 50px;
+}
+

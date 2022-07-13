@@ -1,0 +1,62 @@
+/*fonts*/
+@font-face {
+  font-family: "Saira Condensed";
+  src: url(Fonts/SairaCondensed/SairaCondensed-regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Spicy_Rice";
+  src: url(Fonts/Spicy_Rice/SpicyRice-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Belleza";
+  src: url(Fonts/Belleza/Belleza-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Abel";
+  src: url(Fonts/Abel/Abel-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: rgba(255, 201, 66, 0.11);
+}
+
+#content-container{
+    margin-top: 180px;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    background-color: #e8e8e8;
+}
+
+#content-all{
+    font-family: Abel;
+}
+
+#content-all h1{
+	margin-top:10px;
+	font-family: Saira Condensed;
+	text-align:center;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+#content-all #content-body{
+    margin-left: 20px;
+    margin-top: -50px;
+    padding: 50px;
+    font-family: Abel;
+    font-weight: normal;
+    font-size: 23px;
+    overflow: hidden;
+}
+
+#map{
+    float: right;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+#contactText{
+    display: inline-block;
+    width: 40%;
+}
